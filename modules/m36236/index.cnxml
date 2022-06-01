@@ -1,0 +1,1851 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Интегрирање на тригонометриски функции</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36236</md:content-id>
+  <md:title>Интегрирање на тригонометриски функции</md:title>
+  <md:abstract>Со користење на некои тригонометриски идентитети се покажува како може да се решат некои видови на интеграли од тригонометриски функции.</md:abstract>
+  <md:uuid>28497d7b-2a64-407e-a2ad-551d1952174b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165591129408">Во случај кога подинтегралната функција е тригонометриска функција и така зададениот интеграл не е табличен, односно нерешлив, се применува некој тригонометриски идентитет кој го сведува зададениот интеграл на решлив. Такви тригонометриски идентитети се следните:</para>
+    <equation id="id1165590108306">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>sin</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>cos</m:mtext>
+                          </m:mrow>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>cos</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mtext>sin</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>cos</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>cos</m:mtext>
+                          </m:mrow>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>cos</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mtext>cos</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mtext>sin</m:mtext>
+                    <m:mi>x</m:mi>
+                    <m:mtext>cos</m:mtext>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mtext>sin</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ax</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtext>cos</m:mtext>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>bx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mtext>sin</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>sin</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">]</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mtext>sin</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ax</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtext>sin</m:mtext>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>bx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mtext>cos</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>cos</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">]</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mtext>cos</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ax</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtext>cos</m:mtext>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>bx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mtext>cos</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>cos</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">]</m:mo>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"sin" rSup { size 8{2} } x+"cos" rSup { size 8{2} } x=1}  {} # 
+"sin" rSup { size 8{2} } x= {  {1 - "cos"2x}  over  {2} }  drarrow 1 - "cos"x=2"sin" rSup { size 8{2} }  {  {x}  over  {2} }  {} # 
+"cos" rSup { size 8{2} } x= {  {1+"cos"2x}  over  {2} }  drarrow 1+"cos"x=2"cos" rSup { size 8{2} }  {  {x}  over  {2} }  {} # 
+"sin"x"cos"x= {  {"sin"2x}  over  {2} }  {} # 
+"sin" ital "ax""cos" ital "bx"= {  {1}  over  {2} }  \[ "sin" \( a - b \) x+"sin" \( a+b \) x \]  {} # 
+"sin" ital "ax""sin" ital "bx"= {  {1}  over  {2} }  \[ "cos" \( a - b \) x - "cos" \( a+b \) x \]  {} # 
+"cos" ital "ax""cos" ital "bx" {  {1}  over  {2} }  \[ "cos" \( a - b \) x+"cos" \( a+b \) x \]  "."  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id1165588685917">Примената на овие тригонометриски идентитети се покажува преку примери.</para>
+    <section id="id1165611521484">
+      <title>Пример 1.</title>
+      <para id="id1165606714214">Да се пресмета </para>
+      <equation id="id1165596756881">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>cos</m:mtext>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:msqrt>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { sqrt {1 - "cos"x}  ital "dx" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1165592520881">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msqrt>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mtext>cos</m:mtext>
+                            </m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msqrt>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                                <m:msup>
+                                  <m:mtext>sin</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mfrac>
+                                  <m:mi>x</m:mi>
+                                  <m:mn>2</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:msqrt>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mtext>sin</m:mtext>
+                        <m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:msqrt>
+                    <m:mtext>cos</m:mtext>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { sqrt {1 - "cos"x}  ital "dx"= Int { sqrt {2"sin" rSup { size 8{2} }  {  {x}  over  {2} } } } }  ital "dx"= sqrt {2}  Int {"sin" {  {x}  over  {2} } }  ital "dx"= - 2 sqrt {2} "cos" {  {x}  over  {2} } +C "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    </section>
+    <section id="id1165588736048">
+      <title>Пример 2.</title>
+      <para id="id1165592961770">Да се пресмета</para>
+      <equation id="id1165625556253">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:mtext>sin</m:mtext>
+                      <m:mn>2x</m:mn>
+                      <m:mtext>sin</m:mtext>
+                      <m:mn>5</m:mn>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin"2x"sin"5 ital "xdx" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1165600280973">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mn>2x</m:mn>
+                                <m:mtext>sin</m:mtext>
+                                <m:mn>5</m:mn>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>xdx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">[</m:mo>
+                                <m:mtext>cos</m:mtext>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>cos</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">]</m:mo>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">[</m:mo>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>cos</m:mtext>
+                                </m:mrow>
+                                <m:mn>7x</m:mn>
+                                <m:mo stretchy="false">]</m:mo>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow/>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:mn>3x</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>cos</m:mtext>
+                                </m:mrow>
+                                <m:mn>7x</m:mn>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mfrac>
+                                      <m:mn>1</m:mn>
+                                      <m:mn>2</m:mn>
+                                    </m:mfrac>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mfrac>
+                                      <m:mrow>
+                                        <m:mtext>sin</m:mtext>
+                                        <m:mn>3x</m:mn>
+                                      </m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mrow>
+                                    <m:mfrac>
+                                      <m:mn>1</m:mn>
+                                      <m:mn>2</m:mn>
+                                    </m:mfrac>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mfrac>
+                                      <m:mrow>
+                                        <m:mtext>sin</m:mtext>
+                                        <m:mn>7x</m:mn>
+                                      </m:mrow>
+                                      <m:mn>7</m:mn>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mfrac>
+                                    <m:mrow>
+                                      <m:mtext>sin</m:mtext>
+                                      <m:mn>3x</m:mn>
+                                    </m:mrow>
+                                    <m:mn>6</m:mn>
+                                  </m:mfrac>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mfrac>
+                                    <m:mrow>
+                                      <m:mtext>sin</m:mtext>
+                                      <m:mn>7x</m:mn>
+                                    </m:mrow>
+                                    <m:mtext>14</m:mtext>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow/>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ Int {"sin"2x"sin"5 ital "xdx"={}}  {  {1}  over  {2} }  Int { \[ "cos" \( 2 - 5 \) x - "cos" \( 2+5 \) x \]  ital "dx"={}}  {  {1}  over  {2} }  Int { \[ "cos" \(  - 3 \) x - "cos"7x \]  ital "dx"={}} }  {} # 
+ size 12{ {}= {  {1}  over  {2} }  Int { \( "cos"3x - "cos"7x \)  ital "dx"={}}  {  {1}  over  {2} }  cdot  {  {"sin"3x}  over  {3} }  -  {  {1}  over  {2} }  cdot  {  {"sin"7x}  over  {7} } +C= {  {"sin"3x}  over  {6} }  -  {  {"sin"7x}  over  {"14"} } +C "." }  {} # 
+ {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    </section>
+    <section id="id1165607164383">
+      <title>Пример 3.</title>
+      <para id="id1165621140038">Да се пресмета</para>
+      <equation id="id6328570">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>tan</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"tan" rSup { size 8{2} }  ital "xdx" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165608197237"/>
+      <equation id="id1165623521862">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>tan</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>sin</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>cos</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msup>
+                                <m:mtext>cos</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>tan</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"tan" rSup { size 8{2} }  ital "xdx"= Int { {  {"sin" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"={}} }  Int { {  {1 - "cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"={}}  Int { {  {1}  over  {"cos" rSup { size 8{2} } x} }  ital "dx" - {}}  Int { {  {"cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"={}} "tan"x - x+C "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    </section>
+    <section id="id1165620271710">
+      <title>Пример 4.</title>
+      <para id="id1165608479479">Да се пресмета</para>
+      <equation id="id1165623959837">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>tan</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"tan" rSup { size 8{4} }  ital "xdx" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1165608473043">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>tan</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>tan</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mi>x</m:mi>
+                              <m:msup>
+                                <m:mtext>tan</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>xdx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>tan</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mtext>cos</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mtext>cos</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>tan</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>tan</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xdx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"tan" rSup { size 8{4} }  ital "xdx"= Int {"tan" rSup { size 8{2} } x"tan" rSup { size 8{2} }  ital "xdx"={}}  Int {"tan" rSup { size 8{2} } x {  {1 - "cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"={}} }  Int {"tan" rSup { size 8{2} } x {  {1}  over  {"cos" rSup { size 8{2} } x} }  ital "dx" - {}}  Int {"tan" rSup { size 8{2} }  ital "xdx" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165599940402">Првиот интеграл се решава со смената:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>tan</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"tan"x=t drarrow  {  {1}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"= ital "dt"} {}</m:annotation></m:semantics></m:math>, а вториот интеграл е решен во претходната задача, затоа</para>
+      <equation id="id1165605656484">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>tan</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xdx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>t</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dt</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mtext>tan</m:mtext>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:msup>
+                                    <m:mi>t</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mn>3</m:mn>
+                                </m:mfrac>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>tan</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mn>3</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mtext>tan</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>tan</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {"tan" rSup { size 8{4} }  ital "xdx"= Int {t rSup { size 8{2} }  ital "dt" -  \( "tan"x - x \) +C= {  {t rSup { size 8{3} } }  over  {3} }  - "tan"x+x+C= {  {1}  over  {3} } } "tan" rSup { size 8{3} } x - "tan"x+x+C "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      
+      
+      
+    </section>
+    <para id="eip-34">Многу важни интеграли се:</para><equation id="eip-477"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mtext>sin</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>n</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>xdx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>;</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>;</m:mi>
+                      <m:mi/>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">∈</m:mo>
+                        <m:mi>N</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ Int {"sin" rSup { size 8{n} }  ital "xdx"} ;}  {} # 
+ Int {"cos" rSup { size 8{n} }  ital "xdx"} ;~ \( n in N \)  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math></equation><para id="eip-345">кои многу често се среќаваат во решавањето на интеграли и затоа ќе ја покажеме постапката за нивното решавање.</para><section id="id1165627743997">
+      <title>Пример 5.</title>
+      <para id="id1165616840619">За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n in N,} {}</m:annotation></m:semantics></m:math>да се пресмета</para>
+      <para id="id1165602315992">I<sub>n</sub>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" rSup { size 8{n} }  ital "xdx"}  "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165606777836">За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=1,} {}</m:annotation></m:semantics></m:math> I<sub>1</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" ital "xdx"} = - "cos"x+C "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165623495957">За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=2,} {}</m:annotation></m:semantics></m:math> I<sub>2</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" rSup { size 8{2} }  ital "xdx"} = {  {1}  over  {2} }  Int { \( 1 - "cos"2x \)  ital "dx"} = {  {x}  over  {2} }  -  {  {1}  over  {4} } "sin"2x+C "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165606826302">За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3,</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=3,} {}</m:annotation></m:semantics></m:math> I<sub>3</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>x</m:mi><m:mtext>sin</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>x</m:mi><m:mtext>sin</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>sin</m:mtext></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" rSup { size 8{3} }  ital "xdx"} = Int {"sin" rSup { size 8{2} } x"sin" ital "xdx"= Int {"sin" rSup { size 8{2} } x"sin" ital "xdx"={}}  Int { \( 1 - "cos" rSup { size 8{2} } x \) "sin"}  ital "xdx"} ={}} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165613382542"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>x</m:mi><m:mtext>sin</m:mtext><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}= Int {"sin" ital "xdx" -  Int {"cos" rSup { size 8{2} } x"sin"x} }  ital "dx"} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1165606998533">Вториот интеграл се решава со смената 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"x=t drarrow  - "sin" ital "xdx"= ital "dt"} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id2368725">Затоа </para>
+      <para id="id1165610323266">I<sub>3</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "cos"x+ {  {1}  over  {3} } "cos" rSup { size 8{3} } x+C "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165613962799">Интегралите I<sub>n</sub> за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> непарен број се решаваат како последниот интеграл (I<sub>3</sub>) со одвојување на најголемиот парен број од степенот и еден линеарен степен. </para>
+      <para id="id1165612536224">Но кога степенот е парен број или број поголем од 3, се применува методот на парцијална интеграција со која интегралот се сведува на интеграл со степен помал за два. Тоа се т.н. рекурентни формули (рекурентни формули се равенки кои прикажуваат одредена постапка или процес преку повторување на иста постапка). </para>
+      <para id="id1165619428592">Постапката за решавање на </para>
+      <para id="id1165603388930">I<sub>n</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" rSup { size 8{n} }  ital "xdx"} } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165604993171">е преку следната парцијална интеграција:</para>
+      <equation id="id1165609234569">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">∫</m:mo>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>sin</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>n</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>xdx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mtext>sin</m:mtext>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mi>n</m:mi>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mtext>sin</m:mtext>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>xdx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mtext>sin</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mtext>cos</m:mtext>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>sin</m:mtext>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>cos</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>cos</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>xdx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>cos</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mtext>sin</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>xdx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>cos</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>xdx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>sin</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xdx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{I rSub { size 8{n} } = Int {"sin" rSup { size 8{n} }  ital "xdx"} = Int {"sin" rSup { size 8{n - 1} } x"sin" ital "xdx"} }  {} # 
+u="sin" rSup { size 8{n - 1} } x drarrow  ital "du"= \( n - 1 \) "sin" rSup { size 8{n - 2} } x"cos" ital "xdx" {} # 
+ ital "dv"="sin" ital "xdx" drarrow v= - "cos"x {} # 
+I rSub { size 8{n} } = - "cos"x"sin" rSup { size 8{n - 1} } x+ \( n - 1 \)  Int {"cos" rSup { size 8{2} } x"sin" rSup { size 8{n - 2} }  ital "xdx"={}}  {} # 
+~= - "cos"x"sin" rSup { size 8{n - 1} } x+ \( n - 1 \)  Int { \( 1 - "sin" rSup { size 8{2} } x \) "sin" rSup { size 8{n - 2} }  ital "xdx"={}}  {} # 
+~`= - "cos"x"sin" rSup { size 8{n - 1} } x+ \( n - 1 \)  Int {"sin" rSup { size 8{n - 2} }  ital "xdx" -  \( n - 1 \)  Int {"sin" rSup { size 8{n} }  ital "xdx"} }  "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165602944439">Се забележува дека после една примена на методот на парцијална интеграција, повторно се враќаме на првобитниот интеграл и на уште еден интеграл од ист облик, но со степен помал за 2. Означувајки со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>n-2</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"n-2"} } = Int {"sin" rSup { size 8{n - 2} }  ital "xdx"} } {}</m:annotation></m:semantics></m:math>, се добива</para>
+      <para id="id1165613926677"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow></m:mrow><m:mi>x</m:mi><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>n-2</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{n} } = - "cos"x"sin" rSup { size 8{n - 1} } x+ \( n - 1 \) I rSub { size 8{"n-2"} }  -  \( n - 1 \) I rSub { size 8{n} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id1165619604821">односно решението на интегралот е</para>
+      <para id="id1165605081307"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mi>x</m:mi><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" rSup { size 8{n} }  ital "xdx"} = -  {  {1}  over  {n} } "cos"x"sin" rSup { size 8{n - 1} } x+ {  { \( n - 1 \) }  over  {n} }  Int {"sin" rSup { size 8{n - 2} }  ital "xdx"} +C} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1867731">Оваа рекурентна фомула пак може да се примени за решавање на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{n - 2} } ,} {}</m:annotation></m:semantics></m:math> која ќе се сведе на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">…</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{n - 4} }  dotslow } {}</m:annotation></m:semantics></m:math> Постапката се применува се’ дека не се дојде до 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>кои веќе ги решивме.</para>
+    </section>
+    <section id="id1165608144583">
+      <title>Пример 6.</title>
+      <para id="id1165597531434">Преку аналогна постапка се решаваат интегралите</para>
+      <para id="id1165593854547">I<sub>1</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"cos" ital "xdx"} ="sin"x+C "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165594830678">I<sub>2</sub>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {"cos" rSup { size 8{2} }  ital "xdx"} = {  {1}  over  {2} }  Int { \( 1+"cos"2x \)  ital "dx"} = {  {x}  over  {2} } + {  {1}  over  {4} } "sin"2x+C "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id1165617690090"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac><m:mtext>sin</m:mtext><m:mi>x</m:mi><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>n-2</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{n} } = Int {"cos" rSup { size 8{n} }  ital "dx"={}}  {  {1}  over  {n} } "sin"x"cos" rSup { size 8{n - 1} } x+ {  { \( n - 1 \) }  over  {n} } I rSub { size 8{"n-2"} } +C} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1165608851945"/>
+    </section>
+  </content>
+</document>

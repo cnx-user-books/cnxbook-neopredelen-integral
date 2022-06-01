@@ -1,0 +1,1684 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Парцијална интеграција</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36040</md:content-id>
+  <md:title>Парцијална интеграција</md:title>
+  <md:abstract>Методот на парцијана интеграција се воведува како втор основен метод во решавање на интегралите.</md:abstract>
+  <md:uuid>846109c7-d02d-4e5f-86ea-1fe6de9b822c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165202235229">
+      <title>Парцијална интеграција</title>
+      <para id="id1165202150892">Втор метод за решавање на интеграли е методот на парцијална интеграција. </para>
+      <para id="id1165189033210">Нека 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u \( x \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v \( x \) } {}</m:annotation></m:semantics></m:math> се две диференцијабилни функции кои накратко ќе ги означиме со 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> и 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>v</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. Диференцијалот од нивниот производ е</para>
+      <equation id="id1165200318114">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>uv</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>vdu</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>udv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{d \(  ital "uv" \) = ital "vdu"+ ital "udv"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165206107404">кој по интегрирање е</para>
+      <equation id="id1165206021440">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>vdu</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>udv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {d \(  ital "uv" \) } = Int { ital "vdu"} + Int { ital "udv"} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165184049439">или</para>
+      <equation id="id1165190416023">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>uv</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>vdu</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>udv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "uv"= Int { ital "vdu"} + Int { ital "udv"} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165184170843">од каде се добива образецот за парцијална интеграција:</para>
+      <equation id="id1165183974314">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>udv</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>uv</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>vdu</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "udv"} = ital "uv" -  Int { ital "vdu" "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1165199151264">Методот на парцијална интеграција се применува кога се воочува дека обликот на подинтегралниот израз е пороизвод од функција 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( u \) } {}</m:annotation></m:semantics></m:math> и диференцијал од друга функција 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dv</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  ital "dv" \)  "." } {}</m:annotation></m:semantics></m:math> Од функцијата 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> се бара нејзиниот диференцијал 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>du</m:mtext></m:mrow></m:mstyle><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "du",} {}</m:annotation></m:semantics></m:math> а од диференцијалот 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"} {}</m:annotation></m:semantics></m:math> преку интегрирање се пресметува функцијата 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>v</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> и се применува образецот за парцијална интеграција. Одбирањето кој израз ќе се земе за 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> а кој за 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"} {}</m:annotation></m:semantics></m:math> се врши преку согледување интегралот 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vdu</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "vdu"} } {}</m:annotation></m:semantics></m:math> да биде полесен за решавање.</para>
+      <section id="id1165184165565">
+        <title>Пример 1. </title>
+        <para id="id8516473">Да се реши интегралот </para>
+        <equation id="id1165184063203">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>xtg</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xdx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "xtg" rSup { size 8{2} }  ital "xdx" "." } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id8630883">Се воочува дека подинтегралниот израз е производ функцијата 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u=x} {}</m:annotation></m:semantics></m:math> и диференцијалот 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dv</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>tg</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"= ital "tg" rSup { size 8{2} }  ital "xdx"} {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id1165203137795">Од 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>du</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u=x drarrow  ital "du"= ital "dx",} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id1165205200561">а од </para>
+        <equation id="id2053584">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>tg</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>tg</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>xdx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">∫</m:mo>
+                                  <m:mfrac>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mtext>sin</m:mtext>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mtext>cos</m:mtext>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">∫</m:mo>
+                                  <m:mfrac>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msup>
+                                          <m:mtext>cos</m:mtext>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mtext>cos</m:mtext>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">∫</m:mo>
+                                  <m:mfrac>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mtext>cos</m:mtext>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">∫</m:mo>
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>dx</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                      <m:mo stretchy="false">=</m:mo>
+                                      <m:mrow/>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>tgx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"= ital "tg" rSup { size 8{2} }  ital "xdx" drarrow v= Int { ital "tg" rSup { size 8{2} }  ital "xdx"= Int { {  {"sin" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"= Int { {  {1 - "cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"= Int { {  {1}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx" -  Int { ital "dx"={}}  -  ital "tgx"}  - x "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165199967288">Затоа </para>
+        <equation id="id1165194680748">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>xtg</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>tgx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>tgx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xtgx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>ln</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mtext>cos</m:mtext>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∣</m:mo>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "xtg" rSup { size 8{2} }  ital "xdx"=x \(  ital "tgx" - x \)  -  Int { \(  ital "tgx" - x \)  ital "dx"} = ital "xtgx" - x rSup { size 8{2} } +"ln" \lline "cos"x \lline + {  {x rSup { size 8{2} } }  over  {2} } +C={}} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="id1165184085674">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>xtgx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mtext>ln</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mtext>cos</m:mtext>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {}= ital "xtgx" -  {  {x rSup { size 8{2} } }  over  {2} } +"ln" \lline "cos"x \lline +C "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165199068760"/>
+      </section>
+      <section id="id5830000">
+        <title>Пример 2. </title>
+        <para id="id1165200058042">Да се реши интегралот </para>
+        <para id="id1165201763028">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>I</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>ln</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= Int {"ln" rSup { size 8{2} }  ital "xdx" "." } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1165198585658">За да се решни овој интеграл, се применува парцијална интеграција. Во овој пример нема дилема во одбирањето на изразот за 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math>, бидејќи подинтегралната функција не е производ од функции. Затоа </para>
+        <equation id="id1165183716739">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mtext>ln</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                            <m:mtext>ln</m:mtext>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{u="ln" rSup { size 8{2} } x drarrow  ital "du"= {  {2"ln"x}  over  {x} }  ital "dx"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165190080163">и</para>
+        <equation id="id1165200059144">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"= ital "dx" drarrow v=x "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165183825804">Решението на интегралот е</para>
+        <para id="id1165201005495">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>ln</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xdx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mtext>ln</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mtext>ln</m:mtext>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:msup>
+                        <m:mtext>ln</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mtext>ln</m:mtext>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= Int {"ln" rSup { size 8{2} }  ital "xdx"=x"ln" rSup { size 8{2} } x - 2 Int { {  {x"ln"x}  over  {x} }  ital "dx"={}} } x"ln" rSup { size 8{2} } x - 2 Int {"ln" ital "xdx" "." } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1165188546695">Последниот интеграл 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>ln</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } = Int {"ln" ital "xdx"} } {}</m:annotation></m:semantics></m:math> повторно се решава со парцијална интеграција во кој</para>
+        <equation id="id1165191950649">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>ln</m:mtext>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mi>x</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{u="ln"x drarrow  ital "du"= {  {1}  over  {x} }  ital "dx"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165199964233">и</para>
+        <equation id="id1165202299182">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"= ital "dx" drarrow v=x} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165205333632">и има решение </para>
+        <equation id="id4722927">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mtext>ln</m:mtext>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xdx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>x</m:mi>
+                              <m:mi>x</m:mi>
+                            </m:mfrac>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } = Int {"ln" ital "xdx"} =x"ln"x -  Int { {  {x}  over  {x} }  ital "dx"={}} x"ln"x - x "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165184074450">Затоа решението на интегралот е</para>
+        <para id="id2369980">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mtext>ln</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mtext>ln</m:mtext>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>xdx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mtext>ln</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">[</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mtext>ln</m:mtext>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">]</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:msup>
+                        <m:mtext>ln</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I=x"ln" rSup { size 8{2} } x - 2 Int {"ln" ital "xdx"=x"ln" rSup { size 8{2} } x - 2 \[ x"ln"x - x \] ={}} x"ln" rSup { size 8{2} } x - 2x"ln"x+2x+C "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="id1165183978606">
+        <title>Пример 3. </title>
+        <para id="id1165199715006">Понекогаш во постапката на решавање на интеграл може повторно да се вратиме на првобитниот интеграл. Таков е на пример </para>
+        <para id="id1165188427044"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= Int {e rSup { size 8{x} } } "sin" ital "xdx"} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1165184012238">За негово решавање се применува парцијална интеграција и сосема е сеедно која од функциите 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> или 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"x} {}</m:annotation></m:semantics></m:math> се одбира за 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>u</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id1165201182638">Нека</para>
+        <para id="id1165203177737">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow/>
+              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{u=e rSup { size 8{x} }  drarrow  ital "du"=e rSup { size 8{x} }  ital "dx"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1165197060291">и</para>
+        <para id="id1165184173221">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>sin</m:mtext>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mtext>sin</m:mtext>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xdx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>cos</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"="sin" ital "xdx" drarrow v= Int {"sin" ital "xdx"= - "cos"x "." } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1165189144665">Применувајќи парцијална интеграција</para>
+        <equation id="id1165203333752">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>sin</m:mtext>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xdx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>cos</m:mtext>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= Int {e rSup { size 8{x} } } "sin" ital "xdx"= - e rSup { size 8{x} } "cos"x+ Int {e rSup { size 8{x} } "cos"x}  ital "dx" "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id5538657">Новодобиентиот интеграл пак се решава со парцијална интеграција при што</para>
+        <equation id="id1165183974082">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{u=e rSup { size 8{x} }  drarrow  ital "du"=e rSup { size 8{x} }  ital "dx"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165206420404">и</para>
+        <equation id="id8152156">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>cos</m:mtext>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xdx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">⇒</m:mo>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xdx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mtext>sin</m:mtext>
+                            </m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"="cos" ital "xdx" drarrow v= Int {"cos" ital "xdx"="sin"x} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165204187982">и интегралот</para>
+        <para id="id1165204313728"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mtext>sin</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mtext>sin</m:mtext><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mrow><m:mo stretchy="false">]</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>I</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= - e rSup { size 8{x} } "cos"x+ \[ e rSup { size 8{x} } "sin"x -  Int {e rSup { size 8{x} } "sin"x}  ital "dx" \] = - e rSup { size 8{x} } "cos"x+e rSup { size 8{x} } "sin"x - I} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1165199191120">Забележуваме дека повторно се добива првобитниот интеграл и префрлувајќи го на левата страна во равенката се добива</para>
+        <equation id="id1165186804881">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>2I</m:mn>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>cos</m:mtext>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mtext>sin</m:mtext>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{2I= - e rSup { size 8{x} } "cos"x+e rSup { size 8{x} } "sin"x} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165201668825">или</para>
+        <equation id="id1165196140904">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>2I</m:mn>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mtext>sin</m:mtext>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>cos</m:mtext>
+                      </m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{2I=e rSup { size 8{x} }  \( "sin"x - "cos"x \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165203221620">од каде изразувајќи го 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> се добива решениетo</para>
+        <equation id="id8202318">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>e</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>sin</m:mtext>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>cos</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= {  {e rSup { size 8{x} }  \( "sin"x - "cos"x \) }  over  {2} } +C "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165198563517">Методите на смена на променливата и парцијална интеграција многу често заеднички се применуваат во решавањето на интеграли. Тоа ке го илустрираме преку пример.</para>
+      </section>
+      <section id="id2871203">
+        <title>Пример 4. </title>
+        <para id="id1165188717195">Да се реши интегралот </para>
+        <equation id="id1165196587719">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>I</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mtext>arcsin</m:mtext>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                            </m:msqrt>
+                          </m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= Int { {  {x"arcsin"x}  over  { sqrt {1 - x rSup { size 8{2} } } } }  ital "dx" "." } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165202859064">Најпрво се воведува смена на променливата </para>
+        <para id="id1165187885268"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>arcsin</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"arcsin"x=t drarrow  {  {1}  over  { sqrt {1 - x rSup { size 8{2} } } } }  ital "dx"= ital "dt"} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1165199788603">Од смената 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>arcsin</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"arcsin"x=t drarrow x="sin"t} {}</m:annotation></m:semantics></m:math> и интегралот се транформира во</para>
+        <para id="id1165199102437"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mtext>arcsin</m:mtext><m:mi>x</m:mi></m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>t</m:mi><m:mtext>sin</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tdt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= Int { {  {x"arcsin"x}  over  { sqrt {1 - x rSup { size 8{2} } } } }  ital "dx"= Int {t"sin" ital "tdt"} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1165196444216">Новодобиениот интеграл по промеливата 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> се решава со парцијална интеграција</para>
+        <para id="id1165187475254"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>du</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u=t drarrow  ital "du"= ital "dt"} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id6603090">и</para>
+        <para id="id5550699"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dv</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tdt</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tdt</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dv"="sin" ital "tdt" drarrow v= Int {"sin" ital "tdt"= - "cos"t} } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id8230857">Затоа </para>
+        <para id="id1165187142776"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>t</m:mi><m:mtext>sin</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>td</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tdt</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>t</m:mi></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= Int {t"sin" ital "td"} t= - t"cos"t+ Int {"cos" ital "tdt"={}}  - t"cos"t+"sin"t+C} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id2239285">Сега останува да се вратиме на старат променлива 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. Во решението на интегралот врз база на смената ставаме </para>
+        <para id="id1165200180945"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arcsin</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t="arcsin"x} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1165194719225"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>t</m:mi></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>arcsin</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"t= sqrt {1 - "sin" rSup { size 8{2} } t} = sqrt {1 - "sin" rSup { size 8{2} }  \( "arcsin"x \) } = sqrt {1 - x rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1165183821833"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>arcsin</m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"t="sin" \( "arcsin"x \) =x} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1165202202066">и решението на интегралот е</para>
+        <equation id="id1165187820665">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>arcsin</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I= -  sqrt {1 - x rSup { size 8{2} } } "arcsin"x+x+C "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="id1165189975945">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow/>
+              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+      </section>
+    </section>
+  </content>
+</document>

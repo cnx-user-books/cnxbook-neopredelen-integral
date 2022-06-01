@@ -1,0 +1,17 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11240</md:content-id>
+    <md:title>Неопределен интеграл</md:title>
+    <md:language>mk</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>9e470965-d199-477e-b831-03f6bd4989b8</md:uuid>
+<md:slug>neopredelen-integral</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m32959"/>
+    <col:module document="m32962"/>
+    <col:module document="m36040"/>
+    <col:module document="m36236"/>
+    <col:module document="m36293"/>
+  </col:content>
+</col:collection>

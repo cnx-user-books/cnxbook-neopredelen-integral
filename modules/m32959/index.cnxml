@@ -1,0 +1,2285 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Поим за неопределен интеграл</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32959</md:content-id>
+  <md:title>Поим за неопределен интеграл</md:title>
+  <md:abstract>Се дефинира примитивна функција и неопределн интеграл. Се дава таблица од основни интеграли и правила за интегрирање.
+The primitive function and non proper integral is defined. The table of non proper integrals is given.</md:abstract>
+  <md:uuid>29cbabce-271d-4000-962b-c30b3a55f5ae</md:uuid>
+</metadata>
+
+<content>
+    <section id="id6244324">
+      <title>ПОИМ ЗА НЕОПРЕДЕЛЕН ИНТЕГРАЛ И НЕГОВО РЕШАВАЊЕ</title>
+      <para id="id6830394">Во делот диференцијално сметање за функција од една променлива, за дадена функција се бараше нејзиниот извод. Сосема пририродно е да се постави инверзната задача: како да се определи функцијата чии што извод е познат?</para>
+      <para id="id3884349">
+        <emphasis>
+          <emphasis effect="italics">Дефиниција</emphasis>
+        </emphasis>
+        <emphasis>
+          <emphasis effect="italics">:</emphasis>
+        </emphasis>
+      </para>
+      <para id="id6907101">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x \) } {}</m:annotation></m:semantics></m:math> е <term>примитивна функција</term><emphasis effect="bold"/> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \] } {}</m:annotation></m:semantics></m:math> ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∀</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ forall x in  \[ a,b \] } {}</m:annotation></m:semantics></m:math> важи</para><equation id="id6844063">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>F</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {F}} sup { ' } \( x \) =f \( x \)  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id5025130">Бидејки важи</para><equation id="id7682002">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mi>F</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mo stretchy="false">]</m:mo>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mi>F</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>,</m:mi>
+                    <m:mi/>
+                    <m:mrow>
+                      <m:mi>C</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>const</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \[ F \( x \) +C { { \] }} sup { ' }= { {F}} sup { ' } \( x \) =f \( x \) ,~C -  ital "const",} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id3892200">тоа значи дека постои цела класа функции 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x \) +C} {}</m:annotation></m:semantics></m:math> кои меѓусебно се разликуваат за константа 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> и имаат ист извод 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>.</para><para id="id4567233">
+        <emphasis>
+          <emphasis effect="italics">Дефиниција</emphasis>
+        </emphasis>
+        <emphasis effect="bold">:</emphasis>
+      </para>
+      <para id="id6569682">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x \) } {}</m:annotation></m:semantics></m:math> е примитивна функција за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \] } {}</m:annotation></m:semantics></m:math>. Множеството примитивни функции 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x \) +C} {}</m:annotation></m:semantics></m:math> се нарекува <term>неопределен интеграл</term> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и се означува со</para><equation id="id4838862">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>F</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int {f \( x \)  ital "dx"=F \( x \) +C "." } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <example id="eip-100"><title>Пример 1.</title><para id="eip-51">Познато ни е дека за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>ln</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ="ln"x} {}</m:annotation></m:semantics></m:math> изводот е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) = {  {1}  over  {x} } } {}</m:annotation></m:semantics></m:math>, па оттаму со инверзна постапка (интегрирање)
+</para><para id="eip-41"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mi>x</m:mi>
+                            </m:mfrac>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mtext>ln</m:mtext>
+                            </m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {x} }  ital "dx"="ln" \lline x \lline } +C "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para></example><section id="id8076011">
+        <title/><para id="id4675547">Ознаката за интеграл 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {} } {}</m:annotation></m:semantics></m:math>е издолжена буква 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation></m:semantics></m:math> и е воведена од Лајбниц. Тоа е првата буква од зборот сума, а потекнува од дефиницијата за определен интеграл кој се дефинира преку суми наречени интегрални суми. </para>
+        <para id="id6542868">Во неопределениот интеграл 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>F</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mi>:</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int {f \( x \)  ital "dx"=F \( x \) +C} } {}</m:annotation></m:semantics> </m:math></para><list id="id6395633" list-type="bulleted"><item>изразот
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \)  ital "dx"} {}</m:annotation></m:semantics></m:math> се нарекува <term>подинтегрален израз</term>;</item>
+          <item>функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се нарекува <term>подинтегрална</term><term> функција</term>;</item>
+          <item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> e <term>интегрална</term><term> константа</term>.</item>
+        </list>
+        <para id="id5804834">Постапката за наоѓање на неопределен инеграл за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се нарекува <term>интегрирање</term> на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id4028409"> Од дефиницијата за неопределен интеграл следува дека:</para>
+        <list id="id4687556" list-type="bulleted">
+          <item>
+            <equation id="id8046980">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mi>F</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mi>F</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>f</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ \(  Int {f \( x \)  ital "dx"}  { { \) }} sup { ' }= \( F \( x \) +C { { \) }} sup { ' }= { {F}} sup { ' } \( x \) =f \( x \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </equation>
+          </item>
+          <item>
+            <equation id="id4036154">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi>d</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>F</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dF</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msup>
+                                  <m:mi>F</m:mi>
+                                  <m:mi>'</m:mi>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{d Int {f \( x \)  ital "dx"=d \( F \( x \) +C \) = ital "dF" \( x \) = { {F}} sup { ' } \( x \)  ital "dx"=f \( x \)  ital "dx"} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </equation>
+          </item>
+          <item>
+            <equation id="id6953853">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dF</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>F</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "dF" \( x \) =F \( x \) +C "." } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </equation>
+          </item>
+        </list>
+      </section>
+      <section id="id4946827">
+        <title>Правила за интегрирање</title>
+        <para id="id4989814">За интегралите важат само следните две правила:</para>
+        <para id="id4634639">1. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">±</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">±</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { \( f \( x \)  +- g \( x \)  \)  ital "dx"= Int {f \( x \)  ital "dx" +-  Int {g \( x \)  ital "dx"} } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id6914863">2. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Kf</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>const</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { ital "Kf" \( x \)  ital "dx"=K Int {f \( x \)  ital "dx",~ \( K -  ital "const" \)  "." } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id7698226">Овие правила лесно се докажуваат со диференцирање на наведените равенства.</para>
+      </section>
+      <section id="id7848833">
+        <title>Таблица од основни интеграли</title>
+        <para id="id5766173">Аналогно како за изводите, и за интегралите се дава таблица од основни интеграли, a тоа се оние интеграли на кои се сведуваат сите интеграли кои може да се решат. Оваа таблица е инверзна на таблицата од изводи, бидејки и постапката интегрирање е инверзна на постапката диференцирање. Воглавно таблицата од основни интеграли е следната:</para><table id="id3737908" summary="таблица од основи интеграли">
+<tgroup cols="1"><colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>n</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mfrac>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mrow>
+                                              <m:mi>n</m:mi>
+                                              <m:mo stretchy="false">+</m:mo>
+                                              <m:mn>1</m:mn>
+                                            </m:mrow>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mrow>
+                                        <m:mi>n</m:mi>
+                                        <m:mo stretchy="false">+</m:mo>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mfrac>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi>C</m:mi>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mi>,</m:mi>
+                                <m:mi/>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">≠</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int {x rSup { size 8{n} }  ital "dx"= {  {x rSup { size 8{n+1} } }  over  {n+1} } +C,~ \( n &lt;&gt;  - 1 \) } } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">∫</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mi>x</m:mi>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>dx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>ln</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">∣</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">∣</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {x} } }  ital "dx"="ln" \lline x \lline +C} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">∫</m:mo>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>e</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int {e rSup { size 8{x} }  ital "dx"} =e rSup { size 8{x} } +C} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">∫</m:mo>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mrow>
+                                    <m:mtext>ln</m:mtext>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int {a rSup { size 8{x} }  ital "dx"} = {  {a rSup { size 8{x} } }  over  {"ln"a} } +C} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>xdx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>cos</m:mtext>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int {"sin" ital "xdx"= - "cos"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>xdx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>sin</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int {"cos" ital "xdx"="sin"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>cos</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>tan</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {"cos" rSup { size 8{2} } x} }  ital "dx"="tan"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>sin</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>cot</m:mtext>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {"sin" rSup { size 8{2} } x} }  ital "dx"= - "cot"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>arctan</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {1+x rSup { size 8{2} } } }  ital "dx"="arctan"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mfrac>
+                                    <m:mn>1</m:mn>
+                                    <m:mn>2</m:mn>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mtext>ln</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                    <m:mfrac>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">+</m:mo>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mfrac>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {1 - x rSup { size 8{2} } } }  ital "dx"= {  {1}  over  {2} } "ln" lline  {  {1+x}  over  {1 - x} }  rline +C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>arcsin</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  { sqrt {1 - x rSup { size 8{2} } } } }  ital "dx"="arcsin"x+C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>ln</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">∣</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">∣</m:mo>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  { sqrt {1+x rSup { size 8{2} } } } }  ital "dx"="ln" \lline x+ sqrt {1+x rSup { size 8{2} } }  \lline +C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∫</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>ln</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">∣</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">∣</m:mo>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  { sqrt {x rSup { size 8{2} }  - 1} } }  ital "dx"="ln" \lline x+ sqrt {x rSup { size 8{2} }  - 1}  \lline +C} } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Таблица од основни интеграли (таблични интеграли)</caption>
+</table><para id="id2133840">Видовме дека за секоја непрекината функција лесно може да се најде неjзиниот извод, додека обратната задача е многу потешка. Може да се најде интеграл од непрекината функција само ако таа се сведе на некој наведените видови интеграли дадени во таблицата од основни интеграли. Затоа и задачата за решавање на интеграл, односно определувањето на примитивната функција не е само потешка задача туку во општ случај таа е нерешлива.</para></section>
+      <example id="eip-598"><title>Пример 2.</title><para id="eip-692">Да се реши интегралот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mrow><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xa</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mn>3x</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { sqrt {x} + ital "xa" rSup { size 8{x} }  - 2x rSup { size 8{2} } }  over  {3x} } }  ital "dx" "." } {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-76">РЕШЕНИЕ:</para><para id="eip-782">За решавање на оваа задача се применуваат двете правила за интегрирање</para><para id="eip-470"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msqrt>
+                            <m:mi>x</m:mi>
+                          </m:msqrt>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xa</m:mtext>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msup>
+                          <m:mn>2x</m:mn>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mn>3x</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { sqrt {x} + ital "xa" rSup { size 8{x} }  - 2x rSup { size 8{2} } }  over  {3x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-59"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:msqrt>
+                          <m:mi>x</m:mi>
+                        </m:msqrt>
+                        <m:mn>3x</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>xa</m:mtext>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mn>3x</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mn>2x</m:mn>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mn>3x</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  { sqrt {x} }  over  {3x} } }  ital "dx"+ Int { {  { ital "xa" rSup { size 8{x} } }  over  {3x} } }  ital "dx"+ Int { {  { - 2x rSup { size 8{2} } }  over  {3x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-34"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {1}  over  {3} }  Int {x rSup { size 8{ -  {  {1}  over  {2} } } } }  ital "dx"+ {  {1}  over  {3} }  Int {a rSup { size 8{x} } }  ital "dx" -  {  {2}  over  {3} }  Int {x}  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-322"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:msup>
+                      <m:msup>
+                        <m:mrow/>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mfrac>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mtext>ln</m:mtext>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {1}  over  {3} }  {  {x rSup { size 8{ {  {1}  over  {2} } } } }  over  { {} rSup { size 8{ {  {1}  over  {2} } } } } } + {  {1}  over  {3} }  {  {a rSup { size 8{x} } }  over  {"ln"a} }  -  {  {2}  over  {3} }  {  {x rSup { size 8{2} } }  over  {2} } +C={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-571"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msqrt>
+                          <m:mi>x</m:mi>
+                        </m:msqrt>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:msup>
+                            <m:mi>a</m:mi>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                            <m:mtext>ln</m:mtext>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {2}  over  {3} }  sqrt {x} + {  {a rSup { size 8{x} } }  over  {3"ln"a} }  -  {  {x rSup { size 8{2} } }  over  {3} } +C "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></example><example id="eip-516"><title>Пример 3.</title><para id="eip-759">Да се реши интегралот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {"cos"2x+"sin" rSup { size 8{2} } x} } }  ital "dx" "." } {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-617">РЕШЕНИЕ:</para><para id="eip-865">Бидејки подинтегралната функција не е функција содржана во таблицата од интеграли, со трансформации таа треба да се сведе на решлив-табличен вид. За таа цел се применуваат тригонометриските релацијии</para><para id="eip-712"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>cos</m:mtext>
+                      <m:mrow>
+                        <m:mn>2x</m:mn>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mtext>cos</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mi/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"cos"2x=``"cos" rSup { size 8{2} } x`` - `"sin" rSup { size 8{2} } x``} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para><para id="eip-546">и</para><para id="eip-992"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>cos</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mtext>sin</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mi/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"cos" rSup { size 8{2} } x``+`"sin" rSup { size 8{2} } x`=1`} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para><para id="eip-624">и интегралот е</para><para id="eip-383"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mtext>cos</m:mtext>
+                        <m:mrow>
+                          <m:mn>2x</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {"cos"2x+"sin" rSup { size 8{2} } x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-365"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mtext>sin</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mtext>sin</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mtext>sin</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {"cos" rSup { size 8{2} } x+"sin" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x - "sin" rSup { size 8{2} } x+"sin" rSup { size 8{2} } x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-721"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mtext>sin</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {"cos" rSup { size 8{2} } x+"sin" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-696"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {"cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"+ Int { {  {"sin" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-566"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { ital "dx"+{}}  Int { {  {1 - "cos" rSup { size 8{2} } x}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-927"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>cos</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}=x+ Int { {  {1}  over  {"cos" rSup { size 8{2} } x} } }  ital "dx" -  Int { ital "dx"} ={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-679"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>tan</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}="tan"x+C "." } {}</m:annotation>
+          </m:semantics>
+        </m:math></para></example><example id="eip-6"><title>Пример 4.</title><para id="eip-531">Да се реши интегралот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { \( 1+x \)  rSup { size 8{2} } }  over  {x \( 1+x rSup { size 8{2} }  \) } } }  ital "dx" "." } {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-229">РЕШЕНИЕ:</para><para id="eip-280">И оваа подинтегрална функција не е табличен случај, затоа најпрво квадрираме и вршиме подредување на собироците од броителот. </para><para id="eip-991"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { \( 1+x \)  rSup { size 8{2} } }  over  {x \( 1+x rSup { size 8{2} }  \) } } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-25"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>2x</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {1+2x+x rSup { size 8{2} } }  over  {x \( 1+x rSup { size 8{2} }  \) } } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math></para><para id="eip-888"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mfrac>
+                              <m:mn>2x</m:mn>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {1+x rSup { size 8{2} } }  over  {x \( 1+x rSup { size 8{2} }  \) } }  ital "dx"+ Int { {  {2x}  over  {x \( 1+x rSup { size 8{2} }  \) } } }  ital "dx"} ={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-392"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= Int { {  {1}  over  {x} } }  ital "dx"+2 Int { {  {1}  over  {1+x rSup { size 8{2} } } } }  ital "dx"={}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-972"><emphasis>
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>ln</m:mtext>
+                        </m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mtext>arctan</m:mtext>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {}="ln" \lline x \lline +2"arctan"x+C} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </emphasis>
+          <emphasis>.</emphasis>
+        </para></example><para id="eip-20">Мора да се нагласи дека при решавање на интегралите, само мал број од нив се основни. За таа цел постојат методи со кои интегралите се сведуваат на основни, а такви се методот на смена на променливата и парцијална интеграција. </para></section>
+  </content>
+</document>
