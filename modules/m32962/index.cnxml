@@ -384,7 +384,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -406,10 +406,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mn>2</m:mn>
                         <m:mrow>
                           <m:mstyle fontstyle="italic">
@@ -442,7 +442,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mfrac>
                         </m:mrow>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -1394,7 +1394,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1409,10 +1409,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1437,7 +1437,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -1651,7 +1651,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1795,10 +1795,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow/>
                         <m:mfrac>
                           <m:mn>3</m:mn>
@@ -1872,7 +1872,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                         </m:mrow>
                         <m:mi>,</m:mi>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -1904,7 +1904,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1919,10 +1919,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1945,7 +1945,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -1966,7 +1966,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -2204,10 +2204,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow/>
                         <m:mfrac>
                           <m:mn>1</m:mn>
@@ -2402,7 +2402,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                         <m:mi>t</m:mi>
                         <m:mtext>.</m:mtext>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -2423,7 +2423,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -2439,10 +2439,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -2460,10 +2460,10 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -2537,7 +2537,7 @@ The method of substitution of the variable in non proper integral is shown.</md:
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>

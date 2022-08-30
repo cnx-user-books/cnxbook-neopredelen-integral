@@ -1121,12 +1121,7 @@
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>u</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u "." } {}</m:annotation></m:semantics></m:math></para>
         <para id="id1165201182638">Нека</para>
         <para id="id1165203177737">
-          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-            <m:semantics>
-              <m:mrow/>
-              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-            </m:semantics>
-          </m:math>
+          
           <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
             <m:semantics>
               <m:mrow>
@@ -1671,12 +1666,7 @@
           </m:math>
         </equation>
         <equation id="id1165189975945">
-          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-            <m:semantics>
-              <m:mrow/>
-              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-            </m:semantics>
-          </m:math>
+          
         </equation>
       </section>
     </section>

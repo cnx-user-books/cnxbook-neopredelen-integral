@@ -744,7 +744,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -763,10 +763,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -785,10 +785,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -805,7 +805,7 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -1560,7 +1560,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1575,10 +1575,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1593,10 +1593,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1615,7 +1615,7 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -1736,7 +1736,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1867,10 +1867,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow/>
                           <m:mfrac>
                             <m:mn>1</m:mn>
@@ -1915,7 +1915,7 @@
                             <m:mi>C</m:mi>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -2886,7 +2886,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -2905,10 +2905,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -2934,7 +2934,7 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -2950,7 +2950,7 @@
           <para id="id1168276690647">и од веке пресметаните
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=B= {  {1}  over  {4} } } {}</m:annotation></m:semantics></m:math>, од првата равенка коефициентот 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>A</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>B</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D= - A - B= -  {  {1}  over  {2} } ,} {}</m:annotation></m:semantics></m:math> додека од втората равенка 
-<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mtext>15</m:mtext><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6C</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"}  over  {4} }  -  {  {4}  over  {4} }  - 6C+ {  {3}  over  {2} } =4 drarrow C=0 "." } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mtext>15</m:mtext><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6C</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"}  over  {4} }  -  {  {4}  over  {4} }  - 6C+ {  {3}  over  {2} } =4 drarrow C=0 "." } {}</m:annotation></m:semantics></m:math></para>
           <para id="id1168276567338">Со оваа постапка дробнорационалната функција ја разложивме на елементарни дробнорационални собироци</para>
           <para id="id1168277728040"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {1 - x rSup { size 8{4} } } } = {  {1/4}  over  {1 - x} } + {  {1/4}  over  {1+x} } + {  { - 1/2}  over  {1+x rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>,</para>
           <para id="id1168276487922">а нејзиниот интеграл е</para>
@@ -2961,7 +2961,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -3086,10 +3086,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -3177,7 +3177,7 @@
                           </m:mrow>
                           <m:mtext>.</m:mtext>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -3810,12 +3810,7 @@
                 <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{3} } +x - 1= ital "Cx" rSup { size 8{3} } + ital "Dx" rSup { size 8{2} } + \( A+C \) x+B+D} {}</m:annotation>
               </m:semantics>
             </m:math>
-            <m:math>
-              <m:semantics>
-                <m:mrow/>
-                <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-              </m:semantics>
-            </m:math>
+            
           </para>
           <para id="id1168276419754">и примена на методот на неопределени коефициенти се добива ситемот равенки</para>
           <equation id="id1168282414496">
@@ -3825,7 +3820,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -3836,10 +3831,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -3850,10 +3845,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -3868,10 +3863,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -3889,7 +3884,7 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -3916,7 +3911,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -4051,10 +4046,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow>
                               <m:mrow/>
@@ -4152,10 +4147,10 @@
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -4281,10 +4276,10 @@
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -4382,7 +4377,7 @@
                           <m:mo stretchy="false">)</m:mo>
                           <m:mtext>.</m:mtext>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -4405,7 +4400,7 @@
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -4432,10 +4427,10 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -4620,7 +4615,7 @@
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
